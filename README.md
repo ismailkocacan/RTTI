@@ -1,4 +1,4 @@
-Rtti-Loose-Coupling-Units
+Rtti(Reflection) Practices
 =========================
 
-Rtti Loose Coupling Units http://ismailkocacan.blogspot.com/2013/09/rtti-gevsek-unitler.html
+This repo contains rtti(reflection library) practices
