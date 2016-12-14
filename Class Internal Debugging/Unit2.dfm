@@ -1,0 +1,52 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 534
+  ClientWidth = 605
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -15
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 18
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 325
+    Height = 534
+    Align = alLeft
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object btnOku: TButton
+    Left = 352
+    Top = 8
+    Width = 137
+    Height = 25
+    Caption = 'Oku'
+    TabOrder = 1
+    OnClick = btnOkuClick
+  end
+  object btnYaz: TButton
+    Left = 352
+    Top = 39
+    Width = 137
+    Height = 25
+    Caption = 'Yaz'
+    TabOrder = 2
+    OnClick = btnYazClick
+  end
+end
